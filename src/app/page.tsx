@@ -24,7 +24,7 @@ export default function HomePage() {
         description="Structural steel, metal work and stainless steel fabrication for contractors, industrial businesses and commercial clients across the Western Cape."
         primaryCta={{ label: "Request a Quote", href: "/request-a-quote" }}
         secondaryCta={{ label: "View Projects", href: "/projects" }}
-        imageSrc="/images/hero/steel-fabrication-hero.svg"
+        imageSrc="/images/hero/steel-fabrication-hero.jpg"
         imageAlt="Steel fabrication workshop activity"
       />
 
