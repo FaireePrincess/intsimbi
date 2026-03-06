@@ -16,7 +16,7 @@ export function Footer() {
     <footer className="mt-20 bg-brand-primary text-slate-200">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-4 lg:px-8">
         <div>
-          <Image src="/logo.png" alt="Intsimbi Concepts logo" width={220} height={44} className="h-10 w-auto" loading="lazy" />
+          <Image src="/logo.png" alt="Intsimbi Concepts logo" width={300} height={60} className="h-12 w-auto" loading="lazy" />
           <p className="mt-4 text-sm text-slate-300">{siteConfig.name}</p>
           <p className="text-sm text-slate-300">{siteConfig.location}</p>
         </div>

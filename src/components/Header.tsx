@@ -19,7 +19,14 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Intsimbi Concepts home">
-          <Image src="/logo.png" alt="Intsimbi Concepts logo" width={250} height={50} priority className="h-11 w-auto" />
+          <Image
+            src="/logo.png"
+            alt="Intsimbi Concepts logo"
+            width={360}
+            height={72}
+            priority
+            className="h-14 w-auto md:h-16"
+          />
         </Link>
 
         <button

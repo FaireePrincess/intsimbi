@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,7 +16,7 @@ body {
   padding: 0;
   background: var(--color-background);
   color: #111827;
-  font-family: "Open Sans", "Inter", "Segoe UI", Arial, sans-serif;
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
 }
 
 h1,
@@ -23,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", "Open Sans", "Segoe UI", Arial, sans-serif;
+  font-family: "Orbitron", "Montserrat", "Segoe UI", Arial, sans-serif;
 }
 
 a {
@@ -32,5 +34,5 @@ a {
 }
 
 .font-body {
-  font-family: "Open Sans", "Inter", "Segoe UI", Arial, sans-serif;
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
 }
