@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Google Maps Placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F2933"/>
+      <stop offset="100%" stop-color="#2C8A8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#F5F7F7"/>
+  <rect x="60" y="60" width="1480" height="780" rx="24" fill="url(#g)" opacity="0.92"/>
+  <g stroke="#E5E7EB" stroke-width="2" opacity="0.25">
+    <path d="M60 220H1540"/><path d="M60 380H1540"/><path d="M60 540H1540"/><path d="M60 700H1540"/>
+    <path d="M320 60V840"/><path d="M640 60V840"/><path d="M960 60V840"/><path d="M1280 60V840"/>
+  </g>
+  <text x="800" y="430" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="700" fill="#E5E7EB">Intsimbi Concepts</text>
+  <text x="800" y="510" text-anchor="middle" font-family="Open Sans,Arial,sans-serif" font-size="40" fill="#D1D5DB">Google Maps Placeholder</text>
+</svg>
