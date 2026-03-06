@@ -12,9 +12,9 @@ export const metadata: Metadata = {
     keywords: ["steel fabrication western cape"]
   }),
   icons: {
-    icon: "/logo.svg",
-    apple: "/logo.svg",
-    shortcut: "/logo.svg"
+    icon: "/logo.png",
+    apple: "/logo.png",
+    shortcut: "/logo.png"
   }
 };
 
