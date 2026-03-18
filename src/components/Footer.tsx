@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook } from "lucide-react";
 import { navigationItems } from "@/data/navigation";
 import { services } from "@/data/services";
 import { siteConfig } from "@/lib/siteConfig";
@@ -55,14 +55,14 @@ export function Footer() {
             <li>Location: Western Cape, South Africa</li>
           </ul>
           <div className="mt-5 flex gap-3">
-            <a href="#" aria-label="Facebook" className="rounded-full border border-slate-500 p-2 hover:border-white">
+            <a
+              href={siteConfig.socialLinks.facebook}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              className="rounded-full border border-slate-500 p-2 hover:border-white"
+            >
               <Facebook size={16} />
-            </a>
-            <a href="#" aria-label="LinkedIn" className="rounded-full border border-slate-500 p-2 hover:border-white">
-              <Linkedin size={16} />
-            </a>
-            <a href="#" aria-label="Instagram" className="rounded-full border border-slate-500 p-2 hover:border-white">
-              <Instagram size={16} />
             </a>
           </div>
         </div>

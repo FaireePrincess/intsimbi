@@ -5,5 +5,8 @@ export const siteConfig = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   location: "Western Cape, South Africa",
   phone: "044 124 0061",
-  email: "info@intsimbiconcepts.com"
+  email: "info@intsimbiconcepts.com",
+  socialLinks: {
+    facebook: "https://www.facebook.com/profile.php?id=61578456747036"
+  }
 };

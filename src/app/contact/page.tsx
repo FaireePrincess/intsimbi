@@ -14,7 +14,20 @@ export const metadata = buildMetadata({
 const contactItems = [
   { label: "Phone", value: siteConfig.phone },
   { label: "Email", value: siteConfig.email },
-  { label: "Location", value: "Western Cape, South Africa" }
+  { label: "Location", value: "Western Cape, South Africa" },
+  {
+    label: "Facebook",
+    value: (
+      <a
+        href={siteConfig.socialLinks.facebook}
+        target="_blank"
+        rel="noreferrer"
+        className="font-medium text-brand-accent underline-offset-4 hover:underline"
+      >
+        Follow Intsimbi Concepts on Facebook
+      </a>
+    )
+  }
 ];
 
 export default function ContactPage() {
