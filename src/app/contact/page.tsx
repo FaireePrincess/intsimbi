@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { QuoteForm, SectionHeading } from "@/components";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/siteConfig";
@@ -59,15 +58,16 @@ export default function ContactPage() {
             </article>
 
             <article className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-brand-primary">Google Maps Placeholder</h3>
+              <h3 className="text-lg font-semibold text-brand-primary">Find Us</h3>
               <div className="mt-4 overflow-hidden rounded-lg border border-slate-200">
-                <Image
-                  src="/images/placeholders/map-placeholder.svg"
-                  alt="Map location placeholder for Intsimbi Concepts"
-                  width={720}
-                  height={420}
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d501.6237020937052!2d22.471155538894035!3d-33.97387177152247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1773840844145!5m2!1sen!2sza"
+                  width="100%"
+                  height="420"
                   loading="lazy"
-                  className="h-52 w-full object-cover"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="h-52 w-full border-0"
+                  allowFullScreen
                 />
               </div>
             </article>
