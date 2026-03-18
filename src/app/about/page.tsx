@@ -33,7 +33,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="About"
             title="Built on Reliable Fabrication and Practical Delivery"
-            description="Intsimbi Concepts is a Western Cape-based steel fabrication company focused on delivering structural steel, metal work, and stainless steelwork for commercial and industrial clients."
+            description="Intsimbi Concepts is a Garden Route-based steel fabrication company focused on delivering structural steel, metal work, and stainless steelwork for commercial and industrial clients."
           />
         </div>
       </section>
@@ -107,7 +107,7 @@ export default function AboutPage() {
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <CTASection
           title="Need a fabrication partner for your next project?"
-          description="Share your requirements and get a practical quotation from a Western Cape-based team."
+          description="Share your requirements and get a practical quotation from a Garden Route-based team."
           ctaLabel="Start Your RFQ"
           ctaHref="/request-a-quote"
         />

@@ -14,7 +14,7 @@ export const metadata = buildMetadata({
 const contactItems = [
   { label: "Phone", value: siteConfig.phone },
   { label: "Email", value: siteConfig.email },
-  { label: "Location", value: "Western Cape, South Africa" },
+  { label: "Location", value: siteConfig.location },
   {
     label: "Facebook",
     value: (

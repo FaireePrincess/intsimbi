@@ -12,9 +12,7 @@ const routes = [
   "/projects",
   "/certifications-quality",
   "/request-a-quote",
-  "/contact",
-  "/blog",
-  "/insights-resources"
+  "/contact"
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

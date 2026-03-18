@@ -52,7 +52,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             <li>Phone: {siteConfig.phone}</li>
             <li>Email: {siteConfig.email}</li>
-            <li>Location: Western Cape, South Africa</li>
+            <li>Location: {siteConfig.location}</li>
           </ul>
           <div className="mt-5 flex gap-3">
             <a

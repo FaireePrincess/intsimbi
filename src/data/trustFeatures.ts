@@ -18,7 +18,7 @@ export const trustFeatures: TrustFeature[] = [
   },
   {
     id: "local",
-    title: "Western Cape Based",
+    title: "Garden Route Based",
     description: "Local understanding of project realities in Cape Town, George, and surrounding areas."
   }
 ];
